@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD1F7B71BD0FE4900A89D16 /* SRTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD1F7AC1BD0FE4900A89D16 /* SRTextField.framework */; settings = {ASSET_TAGS = (); }; };
+		0DD1F7BC1BD0FE4900A89D16 /* SRTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1F7BB1BD0FE4900A89D16 /* SRTextFieldTests.m */; };
+		0DD1F7EB1BD1008D00A89D16 /* SRTextCheckerResultInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD1F7E01BD1008D00A89D16 /* SRTextCheckerResultInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD1F7EC1BD1008D00A89D16 /* SRTextCheckerResultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1F7E11BD1008D00A89D16 /* SRTextCheckerResultInfo.m */; settings = {ASSET_TAGS = (); }; };
+		0DD1F7ED1BD1008D00A89D16 /* SRTextCompareConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD1F7E21BD1008D00A89D16 /* SRTextCompareConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD1F7EE1BD1008D00A89D16 /* SRTextCompareConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1F7E31BD1008D00A89D16 /* SRTextCompareConfig.m */; settings = {ASSET_TAGS = (); }; };
+		0DD1F7EF1BD1008D00A89D16 /* SRTextCompareResultInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD1F7E41BD1008D00A89D16 /* SRTextCompareResultInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD1F7F01BD1008D00A89D16 /* SRTextCompareResultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1F7E51BD1008D00A89D16 /* SRTextCompareResultInfo.m */; settings = {ASSET_TAGS = (); }; };
+		0DD1F7F11BD1008D00A89D16 /* SRTextChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD1F7E61BD1008D00A89D16 /* SRTextChecker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD1F7F21BD1008D00A89D16 /* SRTextChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1F7E71BD1008D00A89D16 /* SRTextChecker.m */; settings = {ASSET_TAGS = (); }; };
+		0DD1F7F31BD1008D00A89D16 /* SRTextCheckerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD1F7E81BD1008D00A89D16 /* SRTextCheckerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD1F7F41BD1008D00A89D16 /* SRTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD1F7E91BD1008D00A89D16 /* SRTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD1F7F51BD1008D00A89D16 /* SRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1F7EA1BD1008D00A89D16 /* SRTextField.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DD1F7B81BD0FE4900A89D16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD1F7A31BD0FE4900A89D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD1F7AB1BD0FE4900A89D16;
+			remoteInfo = SRTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD1F7AC1BD0FE4900A89D16 /* SRTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD1F7B11BD0FE4900A89D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD1F7B61BD0FE4900A89D16 /* SRTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD1F7BB1BD0FE4900A89D16 /* SRTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRTextFieldTests.m; sourceTree = "<group>"; };
+		0DD1F7BD1BD0FE4900A89D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD1F7E01BD1008D00A89D16 /* SRTextCheckerResultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTextCheckerResultInfo.h; sourceTree = "<group>"; };
+		0DD1F7E11BD1008D00A89D16 /* SRTextCheckerResultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTextCheckerResultInfo.m; sourceTree = "<group>"; };
+		0DD1F7E21BD1008D00A89D16 /* SRTextCompareConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTextCompareConfig.h; sourceTree = "<group>"; };
+		0DD1F7E31BD1008D00A89D16 /* SRTextCompareConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTextCompareConfig.m; sourceTree = "<group>"; };
+		0DD1F7E41BD1008D00A89D16 /* SRTextCompareResultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTextCompareResultInfo.h; sourceTree = "<group>"; };
+		0DD1F7E51BD1008D00A89D16 /* SRTextCompareResultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTextCompareResultInfo.m; sourceTree = "<group>"; };
+		0DD1F7E61BD1008D00A89D16 /* SRTextChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTextChecker.h; sourceTree = "<group>"; };
+		0DD1F7E71BD1008D00A89D16 /* SRTextChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTextChecker.m; sourceTree = "<group>"; };
+		0DD1F7E81BD1008D00A89D16 /* SRTextCheckerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTextCheckerConfig.h; sourceTree = "<group>"; };
+		0DD1F7E91BD1008D00A89D16 /* SRTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTextField.h; sourceTree = "<group>"; };
+		0DD1F7EA1BD1008D00A89D16 /* SRTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD1F7A81BD0FE4900A89D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1F7B31BD0FE4900A89D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD1F7B71BD0FE4900A89D16 /* SRTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD1F7A21BD0FE4900A89D16 = {
+			isa = PBXGroup;
+			children = (
+				0DD1F7AE1BD0FE4900A89D16 /* SRTextField */,
+				0DD1F7BA1BD0FE4900A89D16 /* SRTextFieldTests */,
+				0DD1F7AD1BD0FE4900A89D16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DD1F7AD1BD0FE4900A89D16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1F7AC1BD0FE4900A89D16 /* SRTextField.framework */,
+				0DD1F7B61BD0FE4900A89D16 /* SRTextFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DD1F7AE1BD0FE4900A89D16 /* SRTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1F7DE1BD1008D00A89D16 /* Classes */,
+				0DD1F7B11BD0FE4900A89D16 /* Info.plist */,
+			);
+			path = SRTextField;
+			sourceTree = "<group>";
+		};
+		0DD1F7BA1BD0FE4900A89D16 /* SRTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1F7BB1BD0FE4900A89D16 /* SRTextFieldTests.m */,
+				0DD1F7BD1BD0FE4900A89D16 /* Info.plist */,
+			);
+			path = SRTextFieldTests;
+			sourceTree = "<group>";
+		};
+		0DD1F7DE1BD1008D00A89D16 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1F7DF1BD1008D00A89D16 /* SRTextChecker */,
+				0DD1F7E61BD1008D00A89D16 /* SRTextChecker.h */,
+				0DD1F7E71BD1008D00A89D16 /* SRTextChecker.m */,
+				0DD1F7E81BD1008D00A89D16 /* SRTextCheckerConfig.h */,
+				0DD1F7E91BD1008D00A89D16 /* SRTextField.h */,
+				0DD1F7EA1BD1008D00A89D16 /* SRTextField.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		0DD1F7DF1BD1008D00A89D16 /* SRTextChecker */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1F7E01BD1008D00A89D16 /* SRTextCheckerResultInfo.h */,
+				0DD1F7E11BD1008D00A89D16 /* SRTextCheckerResultInfo.m */,
+				0DD1F7E21BD1008D00A89D16 /* SRTextCompareConfig.h */,
+				0DD1F7E31BD1008D00A89D16 /* SRTextCompareConfig.m */,
+				0DD1F7E41BD1008D00A89D16 /* SRTextCompareResultInfo.h */,
+				0DD1F7E51BD1008D00A89D16 /* SRTextCompareResultInfo.m */,
+			);
+			path = SRTextChecker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DD1F7A91BD0FE4900A89D16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD1F7F11BD1008D00A89D16 /* SRTextChecker.h in Headers */,
+				0DD1F7F41BD1008D00A89D16 /* SRTextField.h in Headers */,
+				0DD1F7F31BD1008D00A89D16 /* SRTextCheckerConfig.h in Headers */,
+				0DD1F7ED1BD1008D00A89D16 /* SRTextCompareConfig.h in Headers */,
+				0DD1F7EB1BD1008D00A89D16 /* SRTextCheckerResultInfo.h in Headers */,
+				0DD1F7EF1BD1008D00A89D16 /* SRTextCompareResultInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DD1F7AB1BD0FE4900A89D16 /* SRTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD1F7C01BD0FE4900A89D16 /* Build configuration list for PBXNativeTarget "SRTextField" */;
+			buildPhases = (
+				0DD1F7A71BD0FE4900A89D16 /* Sources */,
+				0DD1F7A81BD0FE4900A89D16 /* Frameworks */,
+				0DD1F7A91BD0FE4900A89D16 /* Headers */,
+				0DD1F7AA1BD0FE4900A89D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRTextField;
+			productName = SRTextField;
+			productReference = 0DD1F7AC1BD0FE4900A89D16 /* SRTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0DD1F7B51BD0FE4900A89D16 /* SRTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD1F7C31BD0FE4900A89D16 /* Build configuration list for PBXNativeTarget "SRTextFieldTests" */;
+			buildPhases = (
+				0DD1F7B21BD0FE4900A89D16 /* Sources */,
+				0DD1F7B31BD0FE4900A89D16 /* Frameworks */,
+				0DD1F7B41BD0FE4900A89D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD1F7B91BD0FE4900A89D16 /* PBXTargetDependency */,
+			);
+			name = SRTextFieldTests;
+			productName = SRTextFieldTests;
+			productReference = 0DD1F7B61BD0FE4900A89D16 /* SRTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD1F7A31BD0FE4900A89D16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Sariel;
+				TargetAttributes = {
+					0DD1F7AB1BD0FE4900A89D16 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0DD1F7B51BD0FE4900A89D16 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 0DD1F7A61BD0FE4900A89D16 /* Build configuration list for PBXProject "SRTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DD1F7A21BD0FE4900A89D16;
+			productRefGroup = 0DD1F7AD1BD0FE4900A89D16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD1F7AB1BD0FE4900A89D16 /* SRTextField */,
+				0DD1F7B51BD0FE4900A89D16 /* SRTextFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DD1F7AA1BD0FE4900A89D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1F7B41BD0FE4900A89D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD1F7A71BD0FE4900A89D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD1F7EC1BD1008D00A89D16 /* SRTextCheckerResultInfo.m in Sources */,
+				0DD1F7F21BD1008D00A89D16 /* SRTextChecker.m in Sources */,
+				0DD1F7EE1BD1008D00A89D16 /* SRTextCompareConfig.m in Sources */,
+				0DD1F7F01BD1008D00A89D16 /* SRTextCompareResultInfo.m in Sources */,
+				0DD1F7F51BD1008D00A89D16 /* SRTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1F7B21BD0FE4900A89D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD1F7BC1BD0FE4900A89D16 /* SRTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DD1F7B91BD0FE4900A89D16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD1F7AB1BD0FE4900A89D16 /* SRTextField */;
+			targetProxy = 0DD1F7B81BD0FE4900A89D16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DD1F7BE1BD0FE4900A89D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DD1F7BF1BD0FE4900A89D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DD1F7C11BD0FE4900A89D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SRTextField/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = club.sariel.SRTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0DD1F7C21BD0FE4900A89D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SRTextField/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = club.sariel.SRTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0DD1F7C41BD0FE4900A89D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SRTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = club.sariel.SRTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DD1F7C51BD0FE4900A89D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SRTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = club.sariel.SRTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD1F7A61BD0FE4900A89D16 /* Build configuration list for PBXProject "SRTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD1F7BE1BD0FE4900A89D16 /* Debug */,
+				0DD1F7BF1BD0FE4900A89D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD1F7C01BD0FE4900A89D16 /* Build configuration list for PBXNativeTarget "SRTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD1F7C11BD0FE4900A89D16 /* Debug */,
+				0DD1F7C21BD0FE4900A89D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DD1F7C31BD0FE4900A89D16 /* Build configuration list for PBXNativeTarget "SRTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD1F7C41BD0FE4900A89D16 /* Debug */,
+				0DD1F7C51BD0FE4900A89D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DD1F7A31BD0FE4900A89D16 /* Project object */;
+}
