@@ -1,7 +1,7 @@
 # SRTextField
 
 * TextField, which can automatically perform regular verification, and automatically prohibits the non - allowed characters to be entered.
-* 能够自动进行正则验证的TextField，并自动禁止非允许的字符进行输入。
+* 能够自动自动禁止字符输入，并进行正则验证的TextField。
 
 ## Requirements
 
