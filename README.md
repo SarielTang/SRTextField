@@ -44,7 +44,8 @@ For more information about how to use CocoaPods, I suggest [this tutorial](http:
 
 ## Usage
 
-* 创建SRTextField
+* Create SRTextField, and set the properties you need.
+* 创建SRTextField，并设置你需要的属性
 ```
     SRTextField *phoneTextField = [[SRTextField alloc]init];
     phoneTextField.regString = RegStringPhoneNumber;//正则验证是否为手机号码
@@ -53,7 +54,8 @@ For more information about how to use CocoaPods, I suggest [this tutorial](http:
     phoneTextField.emptyDescription = @"手机号不能为空!";//是否为空描述
     phoneTextField.delegate = self;//设置Controller为代理对象，遵守UITextfield的代理协议，无须其他操作
 ```
-* 检查单个的SRTextField或者多个SRTextField对象均使用这个方法。
+* Check a single SRTextField or multiple SRTextField objects, using this method.
+* 检查单个的SRTextField或者多个SRTextField对象，均使用这个方法。
 ```
     [SRTextChecker checkAllWidgets:@[t1] completionBlock:^(SRTextCheckerResultInfo *resultInfo) {
         //输出上面填写过的错误提示
