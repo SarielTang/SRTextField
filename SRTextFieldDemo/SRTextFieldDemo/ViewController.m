@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import <SRTextField/SRTextField.h>
-#import <SRTextField/SRTextChecker.h>
 
 @interface ViewController ()<UITextFieldDelegate>
 {
