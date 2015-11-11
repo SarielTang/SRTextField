@@ -5,18 +5,47 @@
 
 ## Requirements
 
-* iOS 7.0+ 
-* Xcode 7.0
+* iOS 6.0+ 
+
+## Installation
+
+### CocoaPods
+
+CocoaPods 0.36 adds supports for Swift and embedded frameworks. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+To integrate SRTextField into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```
+platform :ios, '6.0'
+use_frameworks!
+
+pod 'SRTextField'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+You should open the `{Project}.xcworkspace` instead of the `{Project}.xcodeproj` after you installed anything from CocoaPods.
+
+For more information about how to use CocoaPods, I suggest [this tutorial](http://www.raywenderlich.com/64546/introduction-to-cocoapods-2).
 
 ## 如何使用SRTextField
-
+* cocoapods导入：`pod 'SRTextField'`
 * 手动导入：
     * 将`SRTextField/Classes`文件夹中的所有文件拽入项目中
     * 导入主头文件：`#import "SRTextField.h"`
 
 ## Usage
 
-* 创建SRTextField
+* Create SRTextField, and set the properties you need.
+* 创建SRTextField，并设置你需要的属性
 ```
     SRTextField *phoneTextField = [[SRTextField alloc]init];
     phoneTextField.regString = RegStringPhoneNumber;//正则验证是否为手机号码
@@ -25,7 +54,8 @@
     phoneTextField.emptyDescription = @"手机号不能为空!";//是否为空描述
     phoneTextField.delegate = self;//设置Controller为代理对象，遵守UITextfield的代理协议，无须其他操作
 ```
-* 检查单个的SRTextField或者多个SRTextField对象均使用这个方法。
+* Check a single SRTextField or multiple SRTextField objects, using this method.
+* 检查单个的SRTextField或者多个SRTextField对象，均使用这个方法。
 ```
     [SRTextChecker checkAllWidgets:@[t1] completionBlock:^(SRTextCheckerResultInfo *resultInfo) {
         //输出上面填写过的错误提示
