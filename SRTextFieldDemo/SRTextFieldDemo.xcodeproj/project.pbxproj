@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DCFED2C1BF31F46008DF652 /* ZBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCFED2B1BF31F46008DF652 /* ZBTextField.m */; };
 		0DD1F8041BD100BD00A89D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1F8031BD100BD00A89D16 /* main.m */; };
 		0DD1F8071BD100BD00A89D16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1F8061BD100BD00A89D16 /* AppDelegate.m */; };
 		0DD1F80A1BD100BD00A89D16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1F8091BD100BD00A89D16 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DCFED2A1BF31F45008DF652 /* ZBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBTextField.h; sourceTree = "<group>"; };
+		0DCFED2B1BF31F46008DF652 /* ZBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBTextField.m; sourceTree = "<group>"; };
 		0DD1F7FF1BD100BD00A89D16 /* SRTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD1F8031BD100BD00A89D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DD1F8051BD100BD00A89D16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 			children = (
 				0DD1F8051BD100BD00A89D16 /* AppDelegate.h */,
 				0DD1F8061BD100BD00A89D16 /* AppDelegate.m */,
+				0DCFED2A1BF31F45008DF652 /* ZBTextField.h */,
+				0DCFED2B1BF31F46008DF652 /* ZBTextField.m */,
 				0DD1F8081BD100BD00A89D16 /* ViewController.h */,
 				0DD1F8091BD100BD00A89D16 /* ViewController.m */,
 				0DD1F80B1BD100BD00A89D16 /* Main.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DD1F80A1BD100BD00A89D16 /* ViewController.m in Sources */,
+				0DCFED2C1BF31F46008DF652 /* ZBTextField.m in Sources */,
 				0DD1F8071BD100BD00A89D16 /* AppDelegate.m in Sources */,
 				0DD1F8041BD100BD00A89D16 /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				0DD1F82E1BD100BD00A89D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DD1F82F1BD100BD00A89D16 /* Build configuration list for PBXNativeTarget "SRTextFieldDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				0DD1F8311BD100BD00A89D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DD1F8321BD100BD00A89D16 /* Build configuration list for PBXNativeTarget "SRTextFieldDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				0DD1F8341BD100BD00A89D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

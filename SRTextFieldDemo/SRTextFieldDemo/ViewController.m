@@ -7,11 +7,12 @@
 //
 
 #import "ViewController.h"
-#import <SRTextField/SRTextField.h>
+//#import <SRTextField/SRTextField.h>
+#import "ZBTextField.h"
 
 @interface ViewController ()<UITextFieldDelegate>
 {
-    SRTextField *t1;
+    ZBTextField *t1;
 }
 
 @end
@@ -23,8 +24,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     //手机号码输入框
-    t1 = [[SRTextField alloc]init];
-    t1.regString = RegStringPhoneNumber;//正则验证是否为手机号码
+    t1 = [[ZBTextField alloc]init];
+    t1.placeholder = @"请填写手机号";
+    t1.regString = RegStringCellPhoneNumber;//正则验证是否为手机号码
     t1.inputType = SRTextFieldInputTypeNumber;//只允许输入数字
     t1.errorDescription = @"手机号格式错误!";//错误描述
     t1.emptyDescription = @"手机号不能为空!";//是否为空描述
@@ -37,6 +39,7 @@
     [self.view addSubview:btn];
     btn.frame = CGRectMake(100, 300, 200, 60);
     [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 
 - (void)btnClick {

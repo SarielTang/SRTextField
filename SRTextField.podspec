@@ -16,16 +16,17 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SRTextField"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "能够自动进行各种正则验证的TextField"
 
   s.description  = <<-DESC
-                   A longer description of SRTextField in Markdown format.
+                TextField, which can automatically perform regular verification, and automatically prohibits the non - allowed characters to be entered.
+		能够自动自动禁止字符输入，并进行正则验证的TextField。
 
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+#                   * Think: Why did you write this? What is the focus? What does it do?
+#                   * CocoaPods will be using this to generate tags, and improve search results.
+#                   * Try to keep it short, snappy and to the point.
+#                   * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
   s.homepage     = "https://github.com/SarielTang/SRTextField"
@@ -53,7 +54,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "汤晔" => "524896762@qq.com" }
+  s.author             = { "SarielTang" => "sarieltang@163.com" }
   # Or just: s.author    = "汤晔"
   # s.authors            = { "汤晔" => "524896762@qq.com" }
   # s.social_media_url   = "http://twitter.com/汤晔"
@@ -64,8 +65,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios
+  # s.platform     = :ios, "6.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/SarielTang/SRTextField.git", :commit => "00717abddaa3406b8d6d0db4241e6b073cc4930d" }
+  s.source       = { :git => "https://github.com/SarielTang/SRTextField.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
