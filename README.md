@@ -52,7 +52,6 @@ For more information about how to use CocoaPods, I suggest [this tutorial](http:
     phoneTextField.inputType = SRTextFieldInputTypeNumber;//只允许输入数字
     phoneTextField.errorDescription = @"手机号格式错误!";//错误描述
     phoneTextField.emptyDescription = @"手机号不能为空!";//是否为空描述
-    phoneTextField.delegate = self;//设置Controller为代理对象，遵守UITextfield的代理协议，无须其他操作
 ```
 * Check a single SRTextField or multiple SRTextField objects, using this method.
 * 检查单个的SRTextField或者多个SRTextField对象，均使用这个方法。
